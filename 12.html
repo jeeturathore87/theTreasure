@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nested Lists Example (Q12)</title>
+  <style>
+    /* simple styling to make nested levels clear */
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      padding: 24px;
+      line-height: 1.5;
+      color: #111;
+      background: #f7f7f8;
+    }
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px 24px;
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+    }
+    h1 { font-size: 1.2rem; margin-bottom: 12px; }
+    ul, ol {
+      margin: 8px 0 16px 1.25rem;
+    }
+    ul ul, ul ol, ol ul, ol ol {
+      margin-top: 6px;
+    }
+    .example-note { font-size: 0.9rem; color: #555; }
+  </style>
+</head>
+<body>
+  <div class="container" role="main" aria-labelledby="title">
+    <h1 id="title">Question 12 — List inside another list (Nested Lists)</h1>
+    <p class="example-note">Example: an unordered list where one item contains a step-by-step ordered list and another item contains a sub-list of features.</p>
+
+    <!-- Outer (parent) unordered list -->
+    <ul aria-label="Main topics">
+      <li>
+        Project setup
+        <!-- Nested ordered list (steps) -->
+        <ol aria-label="Project setup steps">
+          <li>Create repository</li>
+          <li>Install dependencies</li>
+          <li>Run initial build</li>
+        </ol>
+      </li>
+
+      <li>
+        Features
+        <!-- Nested unordered list (sub-items) -->
+        <ul aria-label="Features list">
+          <li>User authentication</li>
+          <li>Responsive design</li>
+          <li>Dark mode</li>
+        </ul>
+      </li>
+
+      <li>
+        Notes
+        <!-- Mixed nesting: ordered inside unordered inside an ordered item -->
+        <ol aria-label="Important notes">
+          <li>Back up regularly</li>
+          <li>
+            Testing
+            <ul aria-label="Testing checklist">
+              <li>Unit tests</li>
+              <li>Integration tests</li>
+              <li>Manual QA</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </div>
+</body>
+  </html>
