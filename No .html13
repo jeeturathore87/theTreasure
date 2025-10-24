@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Definition List of Web Development Terms</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #2b5ca8;
+    }
+    dl {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 700px;
+      margin: 20px auto;
+    }
+    dt {
+      font-weight: bold;
+      color: #1a3e72;
+      margin-top: 10px;
+    }
+    dd {
+      margin-left: 20px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Web Development Terms</h1>
+
+  <dl>
+    <dt>HTML (HyperText Markup Language)</dt>
+    <dd>It is the standard language used to create and structure the content of web pages. HTML uses tags like &lt;h1&gt;, &lt;p&gt;, &lt;table&gt; to organize information.</dd>
+
+    <dt>CSS (Cascading Style Sheets)</dt>
+    <dd>It is used to design and style the web pages created using HTML. CSS controls layout, colors, fonts, and spacing, making web pages look attractive.</dd>
+
+    <dt>JavaScript</dt>
+    <dd>A powerful scripting language that allows web pages to become interactive. It can validate forms, create animations, and dynamically change HTML content.</dd>
+
+    <dt>Server</dt>
+    <dd>A computer system that stores, processes, and delivers web pages to users through the internet. Examples include Apache, Nginx, and Node.js servers.</dd>
+
+    <dt>Browser</dt>
+    <dd>A software application that displays web pages. It interprets HTML, CSS, and JavaScript to show the final website. Examples: Chrome, Firefox, Safari, Edge.</dd>
+
+    <dt>Database</dt>
+    <dd>It stores and manages website data such as user information or content. Examples include MySQL, MongoDB, and PostgreSQL.</dd>
+  </dl>
+
+</body>
+  </html>
